@@ -1,3 +1,4 @@
+#Program to rotate elements of an array by rotating one by one
 def lR(arr,d, n):
     for i in range(d):
         leftR(arr, n)
