@@ -1,0 +1,6 @@
+#Program to find the position of element in an array.
+arr = [5,56,76, 34, 78, 90, 43]
+key = 34
+for i in range(0, 6):
+    if (arr[i]==34):
+        print(i)
