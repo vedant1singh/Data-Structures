@@ -4,3 +4,7 @@ key = 34
 for i in range(0, 6):
     if (arr[i]==34):
         print(i)
+#Program to add an element in an array.
+arr = [34, 67, 89, 56, 43]
+arr.append(56)
+print(arr)
