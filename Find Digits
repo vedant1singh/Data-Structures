@@ -1,0 +1,12 @@
+#Program to count number of digits divisible by the number
+n = input()
+a = 0
+    r = [int(i) for i in str(n)]
+    for j in r:
+        if (j==0):
+            pass
+        elif(n%j==0):
+            a +=1
+        else:
+            continue
+ print(a)
